@@ -4,7 +4,9 @@
 
 int main() {
 	int r;
+	printf("Enter dounut radius : ");
 	scanf("%d", &r);
+	printf("Here you are : \n");
 	r -= 1;
 	int thickness = r / 1.5;
 	for (int row = 0; row < 2 * r+1; row++) {
